@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,26 +19,24 @@
 </html>
 
 <?php
-if(isset($_POST['button'])){
-    if($_POST['button'] == "set"){
-        $val = $_POST['user'];
-        setcookie("user", "$val");
-        echo "Cookie is set";
-    }
+// if(isset($_POST['button'])){
+//     if($_POST['button'] == "set"){
+//         $val = $_POST['user']; //get the value from the text field
+//         setcookie("user", "$val");
+//         echo "Cookie is set";
+//     }
 
-    if($_POST['button'] == "display"){
-        if(isset($_COOKIE['user'])){
-            echo $_COOKIE['user'];
-        }
-    }
+//     if($_POST['button'] == "display"){
+//         if(isset($_COOKIE['user'])){
+//             echo $_COOKIE['user'];
+//         }
+//     }
 
-    if($_POST['button'] == "delete"){
-        if(isset($_COOKIE['user'])){
-            setcookie("user", "null", -1);
-            echo "Cookie deleted";
-        }
-    }
-}
-
-
-?>
+//     if($_POST['button'] == "delete"){
+//         if(isset($_COOKIE['user'])){
+//             setcookie("user", "null", -1);
+//             echo "Cookie deleted";
+//         }
+//     }
+// }
+?> -->
