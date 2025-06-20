@@ -7,21 +7,21 @@
 }  -->
 
 <?php  
-// for ($x = 0; $x <= 10; $x++) {
-//   echo "The number is: $x <br>";
-// }
+for ($x = 0; $x <= 10; $x++) {
+  echo "The number is: $x <br>";
+}
 ?> 
 
 <?php  
-// for ($x = 0; $x <= 10; $x++) {
-//   if ($x == 3) continue;
-//   echo "The number is: $x <br>"; // 0 1 2 4 5 6 7 8 9 10
-// }
+for ($x = 0; $x <= 10; $x++) {
+  if ($x == 3) continue;
+  echo "The number is: $x <br>"; // 0 1 2 4 5 6 7 8 9 10
+}
 ?> 
 
 <?php  
-// for ($x = 0; $x <= 10; $x++) {
-//   if ($x == 3) break;
-//   echo "The number is: $x <br>"; // 0 1 2
-// }
+for ($x = 0; $x <= 10; $x++) {
+  if ($x == 3) break;
+  echo "The number is: $x <br>"; // 0 1 2
+}
 ?>  

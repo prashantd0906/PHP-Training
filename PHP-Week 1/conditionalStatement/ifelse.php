@@ -7,11 +7,11 @@ if (condition) {
 } -->
 
 <?php
-// $t = date("H");
+$t = date("H");
 
-// if ($t > "16") {
-//   echo "Have a good day!";
-// } else {
-//   echo "Have a good night!";
-// }
+if ($t > "16") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
 ?>

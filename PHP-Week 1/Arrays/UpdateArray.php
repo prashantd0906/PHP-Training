@@ -1,19 +1,19 @@
 <?php
-// $cars = array("Volvo", "BMW", "Toyota");
-// foreach ($cars as &$x) {
-//   $x = "Ford";
-// }
-// unset($x);
-// var_dump($cars);
+$cars = array("Volvo", "BMW", "Toyota");
+foreach ($cars as &$x) {
+  $x = "Ford";
+}
+unset($x);
+var_dump($cars);
 ?>
 
 <?php
-// $cars = array("Volvo", "BMW", "Toyota");
-// foreach ($cars as &$x) {
-//   $x = "Ford";
-// }
+$cars = array("Volvo", "BMW", "Toyota");
+foreach ($cars as &$x) {
+  $x = "Ford";
+}
 
-// $x = "ice cream";
+$x = "ice cream";
 
-// var_dump($cars);
+var_dump($cars);
 ?>

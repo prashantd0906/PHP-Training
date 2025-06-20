@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,23 +18,23 @@
         <button name="button" value="delete">Delete Session</button>
     </form>
 </body>
-</html> -->
+</html>
 
 <?php
-// session_start();
-// if(isset($_POST['button'])){ //Checks if any form button was clicked
-    // if($_POST['button']=="set"){ //This checks which button was clicked in the HTML form.
-//         $val = $_POST['user'];
-//         $_SESSION['user']=$val; 
-//     }
+session_start();
+if(isset($_POST['button'])){ //Checks if any form button was clicked
+    if($_POST['button']=="set"){ //This checks which button was clicked in the HTML form.
+        $val = $_POST['user'];
+        $_SESSION['user']=$val; 
+    }
 
-//     if($_POST['button']=="get"){
-//         echo $_SESSION['user']; 
-//     }
+    if($_POST['button']=="get"){
+        echo $_SESSION['user']; 
+    }
 
-//     if($_POST['button']=="delete"){
-//         session_destroy();
+    if($_POST['button']=="delete"){
+        session_destroy();
     
-//     }
-// }
+    }
+}
 ?>

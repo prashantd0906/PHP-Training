@@ -1,20 +1,20 @@
 <?php
-// function myMessage() {
-//   echo "Hello world!";
-// }
+function myMessage() {
+  echo "Hello world!";
+}
 
-// myMessage(); // Hello world!
+myMessage(); // Hello world!
 ?> 
 
 <?php
-// function familyName($fname) {
-//   echo "$fname Johnroe.<br>";
-// }
+function familyName($fname) {
+  echo "$fname Johnroe.<br>";
+}
 
-// familyName("Jeremy");
-// familyName("Josh");
-// familyName("Frank");
-// familyName("Ross");
-// familyName("Bridge");
+familyName("Jeremy");
+familyName("Josh");
+familyName("Frank");
+familyName("Ross");
+familyName("Bridge");
 
 ?>
