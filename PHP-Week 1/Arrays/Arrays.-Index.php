@@ -1,7 +1,7 @@
 $<?php
-// $fruits=array("Mango", "Banana", "Grapes");
-// var_dump($fruits);
-// echo count($fruits);
+$fruits=array("Mango", "Banana", "Grapes");
+var_dump($fruits);
+echo count($fruits);
 ?>
 
 <?php
